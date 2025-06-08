@@ -1,0 +1,140 @@
+main div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.titulo {
+    margin-left: 90px;
+}
+
+select.fordform {
+    width: 310px;
+    height: 36px;
+    color: #807d7d;
+}
+
+.forms input:hover {
+    border: 2px solid #1B357E; 
+	box-shadow: 0 0 5px #140101;
+}
+
+.fordform::placeholder {
+  font-family: 'Open Sans', cursive; /* ou outra fonte que você quiser */
+  font-size: 16px; /* você também pode ajustar o tamanho */
+  font-style: italic; /* opcional */
+  color: #888; /* cor opcional */
+}
+
+#mensagem {
+	resize: none;
+    border-radius: 10px;
+    border-color: rgb(211, 190, 190);
+    margin-left: 10px;
+    width: 303px;
+}
+
+#mensagem:hover {
+	border: 2px solid #1B357E;  
+	box-shadow: 0 0 5px #140101;
+}
+
+.formmensage::placeholder {
+  font-family: 'Open Sans', cursive; /* ou outra fonte que você quiser */
+  font-size: 16px; /* você também pode ajustar o tamanho */
+  font-style: italic; /* opcional */
+  color: #888; /* cor opcional */
+}
+
+.formLGPD {
+  margin-left: 15px;
+  display: block;
+}
+
+.formLGPD p {
+  margin: 0;
+  line-height: 1.4; /* melhora a leitura sem exagerar na altura */
+}
+
+.formLGPD label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.formLGPD a:hover {
+    color: red;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+#tipo-contato:valid {
+    color: black; /* Cor quando uma opção válida for selecionada */
+}
+
+.forms {
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+}
+
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-right: 8px;
+    float: right;
+}
+
+.botao_contato {
+    background: #1351d8;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.botao_contato:disabled {
+  background-color: #cccccc; 
+  cursor: not-allowed;
+}
+
+div#modal-alerta {
+  display:none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; 
+  height: 100vh; 
+  background: rgba(0,0,0,0.7); 
+  z-index: 1000; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+div#modal-alerta p {
+  font-family: Open Sans;
+  font-size: 18px;
+}
